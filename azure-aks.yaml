@@ -13,7 +13,7 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: my53
+      - name: mypythondockerrepo
         image: myacrm1.azurecr.io/manohar0579/my53:#{Build.BuildId}#
         ports:
         - containerPort: 5000
